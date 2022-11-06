@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityInformationStudent">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F00"
+        android:textStyle="bold"
+        android:text="Student information"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="Student name : ">
+        </TextView>
+        <TextView
+            android:id="@+id/txtstudentname"
+            android:textSize="20sp"
+            android:text="Nhựt"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="Sex : ">
+        </TextView>
+        <TextView
+            android:id="@+id/txtstudentsex"
+            android:textSize="20sp"
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="Student code : ">
+        </TextView>
+        <TextView
+            android:id="@+id/txtstudentcode"
+            android:textSize="20sp"
+            android:text="2 weeks"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:text="Date of birth : ">
+        </TextView>
+        <TextView
+            android:id="@+id/txtstudentdateofbirth"
+            android:textSize="20sp"
+            android:text="Việt Nam"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>
